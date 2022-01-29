@@ -18,8 +18,7 @@ let bossSizeNintendo = 1
 let bossSizeSony = 1
 let bossSizeMicrosoft = 1
 
-let hpColor = "#AC3F33"
-let hpHighlight = "#E57248"
+let hpHighlight = "#D0DADD"
 
 let microsoftEye = "#E57248"
 let sonyEye = "#E57248"
@@ -198,7 +197,7 @@ function previousYear () {
 function nintendoBar (x,y) {
     bossName = "Nintendo"
     noStroke()
-    fill(hpColor)
+    fill(nintendoEye)
         beginShape()
             vertex(x, y)
             vertex(x+platformNintendo+10, y)
@@ -230,7 +229,7 @@ function nintendoBar (x,y) {
     function sonyBar (x,y) {
         bossName = "Sony"
         noStroke()
-        fill(hpColor)
+        fill(sonyEye)
             beginShape()
                 vertex(x, y)
                 vertex(x+platformSony+10, y)
@@ -261,7 +260,7 @@ function nintendoBar (x,y) {
     function microsoftBar (x,y) {
         bossName = "Microsoft"
         noStroke()
-        fill(hpColor)
+        fill(microsoftEye)
             beginShape()
                 vertex(x, y)
                 vertex(x+platformMicrosoft+10, y)
